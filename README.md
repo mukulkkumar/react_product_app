@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# React Project App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,3 +68,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### Docker Image
+
+docker pull kumarm5/react_product_app
+
+### Docker run image
+
+docker run -dp 3000:3000 kumarm5/react_product_app
+
+### In order to get the APIs, use another docker image
+
+docker pull kumarm5/django_product_app
